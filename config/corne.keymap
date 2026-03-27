@@ -14,12 +14,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <100>;
-            key-positions = <1 2>;
-            bindings = <&kp TAB>;
-        };
-
         combo_bt_clear {
             timeout-ms = <100>;
             key-positions = <6 7 8>;
